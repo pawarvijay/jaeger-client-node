@@ -91,6 +91,8 @@ var config = {
     // Provide username and password if authentication is enabled in the Collector
     // username: '',
     // password: '',
+    // agentHost: 'only ip address of jaeger agent, no port no http://',
+    // agentPort: // Will be auto set by Jaeger Thrift https://www.jaegertracing.io/docs/1.16/client-features/
   },
 };
 var options = {
